@@ -1,0 +1,36 @@
+    h1{
+        color: rgb(110, 34, 34);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 110%;
+    }
+
+    .cuadroSignIn {
+
+        width: 320px; 
+        gap: 10px;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        justify-content: center;
+
+        background-color: rgb(91, 89, 87);
+        border-radius: 10px;
+        padding: 1%;
+        align-items: center;
+
+    }
+
+    .cuadroSignIn input, button{
+        width: 40%;
+        height: 20%;
+        gap: 4px;
+    }
+
+    body {
+        margin: 0;
+        height: 100vh;  
+
+        display: flex;
+        justify-content: center;  
+        align-items: center;      
+    }
